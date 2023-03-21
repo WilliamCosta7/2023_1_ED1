@@ -1,0 +1,78 @@
+
+public class Operacoes {
+	
+	private double adicao;
+	private double subtracao;
+	private double divisao;
+	private double multiplicacao;
+	
+	
+	
+	public double getAdicao() {
+		return adicao;
+	}
+
+
+
+	public void setAdicao(double adicao) {
+		this.adicao = adicao;
+	}
+
+
+
+	public double getSubtracao() {
+		return subtracao;
+	}
+
+
+
+	public void setSubtracao(double subtracao) {
+		this.subtracao = subtracao;
+	}
+
+
+
+	public double getDivisao() {
+		return divisao;
+	}
+
+
+
+	public void setDivisao(double divisao) {
+		this.divisao = divisao;
+	}
+
+
+
+	public double getMultiplicacao() {
+		return multiplicacao;
+	}
+
+
+
+	public void setMultiplicacao(double multiplicacao) {
+		this.multiplicacao = multiplicacao;
+	}
+
+
+
+	public double somar (double a,double b) {
+		adicao = a + b;
+		return adicao;
+		}
+	
+	public double subtrair (double a,double b) {
+		subtracao = a - b;
+		return subtracao;
+		}
+
+	public double dividir (double a,double b) {
+		divisao = a / b;
+		return divisao;
+		}
+	public double multiplicar (double a,double b) {
+		multiplicacao = a * b;
+		return multiplicacao;
+		}
+
+}
